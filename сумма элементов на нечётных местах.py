@@ -8,10 +8,11 @@
 import os
 os.system('cls||clear')
 print('Определение суммы элементов на нечётных индексах')
-your_list = []
-for i in range(5): 
-    num = int(input('Введите целое число: '))
-    your_list.append(num)
+# your_list = []
+# for i in range(5): 
+#     num = int(input('Введите целое число: '))
+#     your_list.append(num)
+your_list = [2, 3, 5, 9, 3]
 print(f'Заданый массив: {your_list}')
 sum_list = your_list
 print(f'Cумма элементов на нечётных индексах - {sum(sum_list[1::2])}')
